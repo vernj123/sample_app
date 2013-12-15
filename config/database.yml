@@ -5,7 +5,7 @@ development:
   database: sample_app_development
   pool: 5
   username: vernon
-  password: vernj123
+  password: 
 ...
 
 # Warning: The database defined as "test" will be erased and
