@@ -1,5 +1,5 @@
 #
-sample_app_development:
+development:
   adapter: postgresql
   encoding: unicode
   database: sample_app_development
@@ -10,7 +10,8 @@ sample_app_development:
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development datrabase when you run "rake".
-sample_app_test:
+
+test:
   adapter: postgresql
   encoding: unicode
   database: sample_app_test
@@ -18,7 +19,7 @@ sample_app_test:
   username: vernon
   password: vernj123
 
-sample_app_production:
+production:
   adapter: postgresql
   encoding: unicode
   database: sample_app_production
