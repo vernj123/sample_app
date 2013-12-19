@@ -5,19 +5,19 @@ development:
   database: sample_app_development
   pool: 5
   username: vernon
-  password: 
+  password: vernj123
 ...
 
 # Warning: The database defined as "test" will be erased and
-# re-generated from your development datrabase when you run "rake".
+# re-generated from your development database when you run "rake".
 
 test:
   adapter: postgresql
   encoding: unicode
   database: sample_app_test
   pool: 5
-  username: vernon
-  password: 
+  username: postgres
+  password: vernj123
 
 production:
   adapter: postgresql
@@ -25,4 +25,4 @@ production:
   database: sample_app_production
   pool: 5
   username: vernon
-  password: 
+  password: vernj123
